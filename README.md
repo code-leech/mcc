@@ -3,7 +3,7 @@ writing
 ```
 ninja -C builddir
 ./builddir/binary
-``
+```
 
 Everything is now condensed into one command:
 ```
