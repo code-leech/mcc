@@ -1,0 +1,19 @@
+[package]
+name = "mcc"
+version = "0.2.0"
+edition = "2024"
+description = "Meson C/C++ helper like cargo (build/run/test/setup) with clean coloured output"
+
+[build-dependencies]
+clap = { version = "4.5.45", features = ["derive"] }
+clap_complete = "4.5.57"
+colored = "3.0.0"
+serde_json = "1.0.143"
+
+
+
+[dependencies]
+clap = { version = "4.5.45", features = ["derive"] }
+colored = "3.0.0"
+serde_json = "1.0.143"
+
